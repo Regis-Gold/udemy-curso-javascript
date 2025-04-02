@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pr-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/modelo-style.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .relogio {
+            border-radius: 10px;
+            display: inline;
+            font-size: 50px;
+        }
+
+        button {
+            padding: 10px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        button:active {
+            background-color: #8E82D9;
+            color: white;
+            transition: .3s ease-in-out;
+        }
+
+        .pausado {
+            color: red;
+        }
+        
+    </style>
+    <title>Ex Timer</title>
+</head>
+
+<body>
+    <section class="container">
+        <h1>Meu Timer</h1>
+        <p class="relogio">00:00:00</p>
+        <p>
+            <button class="iniciar">Iniciar</button>
+            <button class="pausar">Pausar</button>
+            <button class="zerar">Zerar</button>
+        </p>
+    </section>
+    <script src="../js/47-ex-timer.js"></script>
+</body>
+
+</html>
