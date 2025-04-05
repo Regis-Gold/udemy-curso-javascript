@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+
+:root {
+  --primary-color: #695acdc0;
+  --primary-color-darker: #093038;
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/***** Config Display Calc *****/
+.display {
+  font-size: 2em;
+  width: 100%;
+  text-align: right;
+}
+
+.btn {
+  width: 100%;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+  background: #dfdfdf;
+  font-weight: 600;
+
+}
+
+.btn:hover {
+  background: #988af3;
+  color: #fff;
+}
+
+.btn-eq {
+  background: #988af3;
+}
+
+.btn-eq:hover {
+  background: slateblue;
+}
+
+
+/***** End Config Display Calc *****/
