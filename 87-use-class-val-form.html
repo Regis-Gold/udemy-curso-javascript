@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/87-use-class-val-form.css">
+    <title>Validando Formulário Usando Class </title>
+    <style>
+        th {
+            width: 65%;
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="container">
+        <h1>Formulário de cadastro</h1>
+        <ul>
+            <li>Nenhum campo pode estar vazio</li>
+            <li>Usuário só poderá conter letras e/ou números</li>
+            <li>Usuário deverá ter entre 3 e 12 caracteres</li>
+            <li>Senha precisa ter entre 6 e 12 caracteres</li>
+        </ul>
+
+        <form action="/" method="POST" class="formulario">
+            <label>Nome</label>
+            <input type="text" class="nome validar" placeholder="Digite seu nome">
+
+            <label>Sobrenome</label>
+            <input type="text" class="sobrenome validar" placeholder="Digite seu sobrenome">
+
+            <label>CPF</label>
+            <input type="text" class="cpf validar" placeholder="999.999.999-99">
+
+            <label>Usuário</label>
+            <input type="text" class="usuario validar" placeholder="nomeusuario@email.com">
+
+            <label>Senha</label>
+            <input type="password" class="senha validar" placeholder="******">
+            
+            <label> Confirmar Senha</label>
+            <input type="password" class="repetir-senha validar" placeholder="******">
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <script src="../js/87-use-class-val-form.js"></script>
+</body>
+
+</html>
